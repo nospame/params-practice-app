@@ -1,0 +1,12 @@
+GET http://localhost:3000/up_case?input=who am i
+
+###
+GET http://localhost:3000/up_case/something or other
+
+###
+POST http://localhost:3000/up_case
+content-type: application/json
+
+{
+  "input": "this phrase is to be up cased"
+  }
